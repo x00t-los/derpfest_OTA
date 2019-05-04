@@ -11,3 +11,8 @@ Upstream source which means:
 - overlay: make power menu icons follow accent on light theme
 - Some more things maybe I can't remember more :P
 fixed ambient display
+
+
+NEW BUILD ONES:
+Fixed Volte for some operators
+Added back ignoring RSSNR(improved signal)

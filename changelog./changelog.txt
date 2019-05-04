@@ -1,3 +1,13 @@
 DERPFEST For Pie FW TEST here:
-Upstream source
+Upstream source which means: 
+- Q Clock: Wallpaper based color is back
+- Q Clock: Added alignment options
+- Q Clock: Added a lot of translations
+- Switched to a new Custom doze package with settings for Ambient brightness values
+- Added Pixel Navbar
+- SystemUI: Decrease padding for statusbar icons
+- Themes: fix autofill saved entries picker dialog
+- AODTile: Fix long click intent
+- overlay: make power menu icons follow accent on light theme
+- Some more things maybe I can't remember more :P
 added brightness control for ambient display.

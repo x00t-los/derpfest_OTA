@@ -1,18 +1,23 @@
-DERPFEST For Pie FW TEST here:
-Upstream source which means: 
+- Updated blobs from OOS 9.0.5
+- Updated GPS config from 9.0.5
+- Updated to DotFix v4.1 libs
+- Accents: Added Sweet Q Purple
 - Q Clock: Wallpaper based color is back
-- Q Clock: Added alignment options
-- Q Clock: Added a lot of translations
+- Q Clock: Added alignment option
+- Q Clock: Added a lot of translations (Russian, Greek, Polish, Czech, Romanian, Thai, Turkiye, Dutch, Portugiese, Japanese and some more)
 - Switched to a new Custom doze package with settings for Ambient brightness values
 - Added Pixel Navbar
-- SystemUI: Decrease padding for statusbar icons
+- Added Big circle battery
+- Added Less boring heads up option
+- Uptime: Moved to battery page
+- SystemUI: Network Traffic fixes
+- SystemUI: Decreased padding beteen battery icon and percent
+- SystemUI: Decreased padding for statusbar icons
 - Themes: fix autofill saved entries picker dialog
+- Fixed showing empty signal strength for TD-SCDMA
 - AODTile: Fix long click intent
-- overlay: make power menu icons follow accent on light theme
+- Overlay: make power menu icons follow accent on light theme
+- Recents: Fix fab theming when user is using white accent
+- Disabled Oreo recents if QuickStep is enabled
 - Some more things maybe I can't remember more :P
-fixed ambient display
 
-
-NEW BUILD ONES:
-Fixed Volte for some operators
-Added back ignoring RSSNR(improved signal)

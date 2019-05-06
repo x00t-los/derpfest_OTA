@@ -1,5 +1,4 @@
-- Added pixelstyle vendor
-- Added SubstratumSignature
+- Added pixelstyle vendor and SubstratumSignature
 - Added support OTA first time for op6
 - Updated blobs from OOS 9.0.5
 - Updated GPS config from 9.0.5

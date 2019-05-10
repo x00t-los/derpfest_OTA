@@ -13,7 +13,6 @@ OnePlus Camera: Dynamicaly set packageName
 carrier config overlay: Enable VoLTE and VoWiFi for MTS carrier
 Add OnePlus's vendor platform signature
 Add OOS camera blobs
-Import OmniRom DeviceParts : Device OnePlus Gestures
 Add missing VoLTE props
 add missing OnePlus camera SEPolicy rules
 prebuilts: Update OnePlus stuff

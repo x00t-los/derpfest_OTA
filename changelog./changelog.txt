@@ -1,39 +1,14 @@
 
-**Devices :
-enchilada: Draw screen corners for anti-aliasing
-enchilada: Add Notch Bar Killer overlay
-sdm845-common: enable oneplus portrait mode
-sdm845-common: cleanup OnePlus camera provider interface 
-overlay: enable Pie telephony and dash charge support
-props: use OOS perfservice props
-Update blobs list from 9.0.5 stable
-Build OnePlus Camera HIDL
-sepolicy: add rules for OnePlus camera provider 
-OnePlus Camera: Dynamicaly set packageName 
-carrier config overlay: Enable VoLTE and VoWiFi for MTS carrier
-Add OnePlus's vendor platform signature
-Add OOS camera blobs
-Add missing VoLTE props
-add missing OnePlus camera SEPolicy rules
-prebuilts: Update OnePlus stuff
-add OnePlus Camera and Gallery
-removed camera snap
-and many more changes...etc
-**Rom :
-Merge tag 'android-9.0.0_r37'
-manifest: Track CustomDoze from Derp
-Initial tracking for DerpFest
-LS Artwork: Intensify blur more to make Clock styles more prominent
-Q Style Clock: Improve design a bit
-SmartNav: Eliminate needless BroadcastReceiver in BaseNavigationBar
-SmartNav: Let's use System colors
-remove vendor/pixelstyle, Gallery2, DerpPapers
-prebuilt: Add SubstratumSignature
-change default wallpaper
-CustomDoze: Make tilt and proximity sensor options optional
-CustomDoze: Ensure Tilt sensor preference is off when Always ON is enabled
-CustomDoze: Ambient: Add back tilt sensor support
-Telephony: Implement alternative method for manual network select
-Long press custom header to open custom header settings [2/2]
-and... many more change
+*Devices :
++Fixed fingerprint can't work some time on mode doze pulse notification
++Optimize, update new OP Cam
++Wifi optimize and work faster
++Enable VoLTE and VoWiFi missing for some carrier
+...and many more change update update from source.
 
+*Rom :
++Merged and update to android-9.0.0_r37
++Removed pixelstyle, Gallery2, DerpPapers
++Prebuilt: Add SubstratumSignature
++Change default wallpaper
+...and many more change update update from source.

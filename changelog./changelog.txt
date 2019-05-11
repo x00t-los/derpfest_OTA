@@ -1,5 +1,6 @@
 
 *Devices :
++new build testing op cam with HDR+.
 +Fixed fingerprint can't work some time on mode doze pulse notification
 +Optimize, update new OP Cam
 +Wifi optimize and work faster

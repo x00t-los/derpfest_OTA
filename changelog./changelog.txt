@@ -4,11 +4,11 @@
 +Optimize, update new OP Cam
 +Wifi optimize and work faster
 +Enable VoLTE and VoWiFi missing for some carrier
-...and many more change update update from source.
+...and many more cahnges update from source.
 
 *Rom :
 +Merged and update to android-9.0.0_r37
 +Removed pixelstyle, Gallery2, DerpPapers
-+Prebuilt: Add SubstratumSignature
++Add SubstratumSignature
 +Change default wallpaper
-...and many more change update update from source.
+...and many more changes update from source.

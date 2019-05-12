@@ -1,6 +1,8 @@
 
 *Devices :
++Revert "enable oneplus portrait mode p2"
 +Update New OP Cam, New OP Gallery
++Otimize op cam
 +Fixed fingerprint can't work some time on mode doze pulse notification
 +Wifi optimize and work faster
 +Enable VoLTE and VoWiFi missing for some carrier
@@ -16,6 +18,7 @@
 +Removed pixelstyle, Gallery2, DerpPapers
 +Add SubstratumSignature
 +Change default wallpaper
++Settings: Revert "Settings: Changes for LiveDisplay" 
 ...and many more changes update from source.
 
 Note : This build need make full wipe

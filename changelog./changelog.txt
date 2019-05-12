@@ -1,11 +1,15 @@
 
 *Devices :
-+Downgrade apk oneplus camera and gallery from OOS 9.0.5 stable
++Update New OP Cam, New OP Gallery
 +Fixed fingerprint can't work some time on mode doze pulse notification
-+Optimize, update new OP Cam
 +Wifi optimize and work faster
 +Enable VoLTE and VoWiFi missing for some carrier
-...and many more cahnges update from source.
++sdm845-common: Add QCOM's WFD implementation
++sdm845-common: Sync extractors with templates
++sdm845-common: sepolicy: Label OTG toggle property as public_vendor
++sdm845-common: Enable vendor and system property isolation
++sdm845-common: sepolicy: Copy over public_vendor_default_prop rules
+...and many more changes update from source.
 
 *Rom :
 +Merged and update to android-9.0.0_r37
@@ -14,4 +18,4 @@
 +Change default wallpaper
 ...and many more changes update from source.
 
-Note : this build need make full wipe
+Note : This build need make full wipe

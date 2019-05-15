@@ -1,10 +1,9 @@
 Changelogs For Build OTA Update 14.05.19
 -sdm845-common: Include ARCore.
--sdm845-common: Removed oneplus software.
--sdm845-common: Add GCMod, PlaygroundMod, ARStickers, Camera provider HAL.
+-sdm845-common: Removed oneplus software (OPCam, OPGallery)
+-sdm845-common: Add GCMod, PlaygroundMod, Camera provider HAL.
 -sdm845-common: Enable Live DisPlay on device.
 -Change default wall.
--Add Gapps Pixel ARM64.
 -Add back proximity autoanswer feature.
 -fwb: Dialer auto proximity speakerphone.
 -SystemUI: Animate the keyguard when charging.
@@ -20,5 +19,4 @@ Changelogs For Build OTA Update 14.05.19
 ... and many changes sync from source.
 
 Note : 
--This build needed to make a full wipe.
--you not need to flash Gapps on this build.
+This build needed to make a full wipe.

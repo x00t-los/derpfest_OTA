@@ -20,7 +20,6 @@ Changelogs For Build OTA Update 16.05.19
 -Dialer: Add option to disable proximity sensor.
 -Add back in-call vibration features.
 -Call with FullScreen Photos.
--Removed in-call vibration features in apps dialer.
 ... and many changes sync from source.
 
 Note : 

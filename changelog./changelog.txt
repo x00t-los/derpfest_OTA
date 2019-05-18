@@ -1,7 +1,7 @@
-Changelogs For Build OTA Update 16.05.19
+Changelogs For Build OTA Update 18.05.19
 -sdm845-common: Include ARCore.
 -sdm845-common: Removed oneplus software (OPCam, OPGallery)
--sdm845-common: Add GCMod, PlaygroundMod, Camera provider HAL.
+-sdm845-common: Add GCMod OP6 Stable, PlaygroundMod, Camera provider HAL.
 -sdm845-common: Enable Live DisPlay on device.
 -sdm845-common: add ARCore.apk
 -overlay: Add livedisplay outdoor tile.

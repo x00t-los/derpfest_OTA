@@ -1,26 +1,3 @@
-Changelogs For Build OTA Update 18.05.19
--sdm845-common: Include ARCore.
--sdm845-common: Removed oneplus software (OPCam, OPGallery)
--sdm845-common: Add GCMod OP6 Stable, PlaygroundMod, Camera provider HAL.
--sdm845-common: Enable Live DisPlay on device.
--sdm845-common: add ARCore.apk
--overlay: Add livedisplay outdoor tile.
--overlay: Fix video call stuttering for WhatsApps
--Change default wall.
--Fix some duplicate and optimize file build.prop
--Add back proximity autoanswer feature.
--fwb: Dialer auto proximity speakerphone.
--SystemUI: Animate the keyguard when charging.
--Incoming call screen & incall screen: contact name on 2 lines.
--Fix in-call buttons layout.
--Make proxi sensor smart-case friendly.
--Fix incorrect proximity sensor behaviour.
--Change overlay to enable call recording.
--Enable post call notifications at the bottom of screen.
--Dialer: Add option to disable proximity sensor.
--Add back in-call vibration features.
--Call with FullScreen Photos.
-... and many changes sync from source.
-
-Note : 
-This build needed to make a full wipe.
+Changelogs For Build OTA Update 23.05.19 :
+Please check all change from source 
+https://github.com/DerpFest-OP5T

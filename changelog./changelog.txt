@@ -4,3 +4,4 @@ Changelogs For Build OTA Update 27.05.19 for Sanders:
 ~Tried to fix Updater
 ~New kernel
 ~Fixed error popup on boot
+javed bhai all ok??

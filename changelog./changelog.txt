@@ -2,6 +2,6 @@ Changelogs For Build OTA Update 27.05.19 for Sanders:
 
 ---Device side
 ~Tried to fix Updater
-~New kernel
+~New Mayhem kernel
 ~Fixed error popup on boot
 ~Tried to fix pixel setup

@@ -1,26 +1,6 @@
-Changelogs For Build OTA Update 27.05.19 :
-sepolicy: allow system_server access to charging sysfs node
-sdm845-common: Remove QCOM's WFD implementation [1/2]
-sdm845-common: Remove QCOM's WFD implementation [2/2]
-sdm845-common: Set permissions for Smart Charging
-enchilada: NotchBarKiller: Fix dimens to fit notch
-sdm845-common: KeyHandler: Change alarms only mode to silent ringer
-Settings UI: Open UserSettings fragment on user icon click
-Settings UI: Increase toolbar size and misc fixes
-Settings: Adapt search bar layout to Q
-Settings UI: Show User Icon in dashboard
-Settings UI: Tint Storage ProgressBar & Redesign Toolbar
-Settings: Fix Rounded Corner and padding for status bar
-Settings: Expose searchbar background color
-Settings: Add customisable alignment for Q style clock
-Revert "Q Always-On Display: Show battery icon"
-Settings: Add smartcharge
-Settings: Add Lockscreen Item Colors
-fonts: Fix 23d135738da 
-And many more changes sync from source derp
-Please check on git to know what changes :
-https://github.com/derpfest-mod
-https://github.com/DerpFest-OP5T
+Changelogs For Build OTA Update 27.05.19 for Sanders:
 
-
-
+---Device side
+~Tried to fix Updater
+~New kernel
+~Fixed error popup on boot

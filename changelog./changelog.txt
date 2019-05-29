@@ -13,7 +13,7 @@ Changelogs For Derpfest MOD Build OTA Update 28.05.19 for Sanders:
 ~Synced some configs from stock
 ~Added some UX optimization from stock
 ~Added the latest EAS configs
-~Updated fingerprint blobs from Crosshatch (Pixel3XL)
+~Added Walleye oreo fingerprint blobs
 ~~~~Also fixed the error popup on boot, so users don't worries.
 
 ---Source side

@@ -1,39 +1,20 @@
-Changelogs For Derpfest MOD Build OTA Update 28.05.19 for Sanders:
+Changelogs For Derpfest Build OTA Update 04.06.2019 for Sanders:
 
 
 ---Device side
-~Added Inbuilt gapps, so no need to flash two different files
-~New update for DTV, so br friends stays uptodate
-~Update GPS blobs from LA.UM.7.6.r1-03700-89xx.0
-~Added new cool vector icons to Dirac
-~Also added cool vector icons to ambient display
-~Now hal1 will be forced only to Whatsapp and Instagram
-~Switch to default call recording audio source
-~Added 5G NR buffers. LMAO
-~Synced some configs from stock
-~Added some UX optimization from stock
-~Added the latest EAS configs
-~Added Walleye oreo fingerprint blobs
-~~~~Also fixed the error popup on boot, so users don't worries.
+- Changed Fingerprint Props from Walleye(Pixel2) to Crosshatch(Pixel3XL)
+- Added Cool New Vector Icons for FP Gestures in Moto Shit
 
 ---Source side
-- Removed LiveDisplay in favor of Omni's Display mode
-- Removed PA Pocket detection
-- Removed Updater
-- KeyHandler: Changed alarms only mode to silent ringer
-- Fixed Custom Rounded Corner and Padding preferences
-- WeatherClient: Conditionally allow query when adding observer
-- Exposed searchbar background color for themers
-- Q Clock: Added translations
-- Q Clock: Added option for Size
-- Q Clock: Added option for Alignment
-- Added Settings for Lockscreen Item Colors
-- Added Smart Charging
+- Added PA Pocket detection back (yes, again lol)
+- Camera: boost cpu and devfreq when focusing
+- Added some buildprop tweaks (thanks to KuranKaname)
+- Removed Smart charging (I was told this should be kernel controlled - you can find a module for this here - thanks to @cukierkas for the tip)
+- SystemUI: Make qs edit repect header image
+- Pulse: Reworked backend
+- Added Battery bar
+- Added Death Star statusbar logo to the list (requested by @1perialf)
+- Stop USB Debugging authorization window dismissing on tap outside
+- Removed the 0 from the 12 hour format from the 'Digital (bold)' option
 - Updated translations
-
-
----Whats Modded ?
-~Added Live Display back in Settings -> Display
-~Added Live Display's QS tile ( 4 modes - On, Off, Automatic, Night)
-~Added Q style settings search bar
-~Added Updater so you fellows can update your OS via OTA without relying on anybody for links.
+- Some more things maybe I can't remember more :P

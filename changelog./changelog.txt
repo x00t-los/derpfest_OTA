@@ -3,7 +3,7 @@ Changelogs For Derpfest Build OTA Update 04.06.2019 for Sanders:
 [SOURCE SIDE]
 - Merged June Security patch
 - Removed inbuilt Google Camera
-- Allowed FP to work when proximity sensor is covered
+- Allowed FP to work when proximity sensor is covered (Everyone did, but not us)
 - Workaround for some banking apps wrongly telling that we are rooted
 - Fixed spooky battery icon in battery usage screen
 - Added AGPS setting menu

@@ -1,4 +1,4 @@
-Changelogs For Derpfest Build OTA Update 04.06.2019 for Sanders:
+Changelogs For Derpfest Build OTA Update 08.06.2019 for Sanders:
 
 [SOURCE SIDE]
 - Merged June Security patch

@@ -1,7 +1,7 @@
 Changelogs For Derpfest Build OTA Update 04.06.2019 for Sanders:
 
 [SOURCE SIDE]
-- Merged June Security patcher
+- Merged June Security patch
 - Removed inbuilt Google Camera
 - Allowed FP to work when proximity sensor is covered
 - Workaround for some banking apps wrongly telling that we are rooted

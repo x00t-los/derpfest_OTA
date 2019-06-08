@@ -1,20 +1,32 @@
 Changelogs For Derpfest Build OTA Update 04.06.2019 for Sanders:
 
-
----Device side
-- Changed Fingerprint Props from Walleye(Pixel2) to Crosshatch(Pixel3XL)
-- Added Cool New Vector Icons for FP Gestures in Moto Shit
-
----Source side
-- Added PA Pocket detection back (yes, again lol)
-- Camera: boost cpu and devfreq when focusing
-- Added some buildprop tweaks (thanks to KuranKaname)
-- Removed Smart charging (I was told this should be kernel controlled - you can find a module for this here - thanks to @cukierkas for the tip)
-- SystemUI: Make qs edit repect header image
-- Pulse: Reworked backend
-- Added Battery bar
-- Added Death Star statusbar logo to the list (requested by @1perialf)
-- Stop USB Debugging authorization window dismissing on tap outside
-- Removed the 0 from the 12 hour format from the 'Digital (bold)' option
-- Updated translations
+[SOURCE SIDE]
+- Merged June Security patcher
+- Removed inbuilt Google Camera
+- Allowed FP to work when proximity sensor is covered
+- Workaround for some banking apps wrongly telling that we are rooted
+- Fixed spooky battery icon in battery usage screen
+- Added AGPS setting menu
+- BatteryBar: Switch BatteryBar positions when positioned on navbar and left in landscape
+- Enabled and fixed QS detail view (can view available WiFis and BT devices from QS for example)
+- Telephony fixes and changed telephony actionbar and text colour
+- Pulse: Show a summary when user changes Render Mode
+- Added Navigation Bar QS tile
+- Added Sync QS Tile
+- Added Option to show/hide data disabled indicator icon
+- Update network & internet and security & location icons in Settings app to match Android Q DP4
+- Added icon to Private DNS in network & internet Settings
 - Some more things maybe I can't remember more :P
+
+
+[DEVICE SIDE]
+- Add XT1804 Thermal configs from stock OPSS28.65-36-6
+- Increase Notification Icon count
+- Enable boost framework
+- Default Camera switched to SnapdragonCamera v2
+- Some here and there minor fixes
+
+
+[MISC]
+- As in Sources there was a change in frameworks base that was causing conflictions in Pocket Detection, that's fixed.
+- As always, Added Updater

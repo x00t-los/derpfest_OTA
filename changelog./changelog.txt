@@ -1,4 +1,4 @@
-Changelog for DerpFest Build OTA Update 17.06 2019 for Sanders
+Changelog for DerpFest Build OTA Update 17.06.2019 for Sanders:
 
 [SOURCE SIDE]
 
@@ -24,7 +24,7 @@ Changelog for DerpFest Build OTA Update 17.06 2019 for Sanders
 
 [MISC]
 
-- As you can see in source side changes (Q beta pill date style), that was not aligned properly, so I reverted that. Whatsoever, if you still want to try pill style date flash zip file from 2nd poat of XDA
+- As you can see in source side changes (Q beta pill date style), that was not aligned properly, so I reverted that. Whatsoever, if you still want to try pill style date flash zip file from 2nd post of XDA
 - The Q music seekbar is reworked, so it won't cover album, but was looking ugly. So reverted that too
 - As always, added Updater
 

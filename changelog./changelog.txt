@@ -1,32 +1,53 @@
-Changelogs For Derpfest Build OTA Update 08.06.2019 for Sanders:
+Changelog for DerpFest Build OTA Update 17.06 2019 for Sanders
 
 [SOURCE SIDE]
-- Merged June Security patch
-- Removed inbuilt Google Camera
-- Allowed FP to work when proximity sensor is covered (Everyone did, but not us)
-- Workaround for some banking apps wrongly telling that we are rooted
-- Fixed spooky battery icon in battery usage screen
-- Added AGPS setting menu
-- BatteryBar: Switch BatteryBar positions when positioned on navbar and left in landscape
-- Enabled and fixed QS detail view (can view available WiFis and BT devices from QS for example)
-- Telephony fixes and changed telephony actionbar and text colour
-- Pulse: Show a summary when user changes Render Mode
-- Added Navigation Bar QS tile
-- Added Sync QS Tile
-- Added Option to show/hide data disabled indicator icon
-- Update network & internet and security & location icons in Settings app to match Android Q DP4
-- Added icon to Private DNS in network & internet Settings
-- Some more things maybe I can't remember more :P
 
-
-[DEVICE SIDE]
-- Add XT1804 Thermal configs from stock OPSS28.65-36-6
-- Increase Notification Icon count
-- Enable boost framework
-- Default Camera switched to SnapdragonCamera v2
-- Some here and there minor fixes
+- Added Status bar notification ticker 
+- Added lockscreen date styles 
+- Added Q beta pill date style (But I need to find a way to let it play nice with alignment option - it is centered for now) 
+- Reworked layout of Q seekbar (let me know your opinions) 
+- Fixed an edge case in KeyguardUpdateMonitor pocket callback 
+- Improved battery estimate layout in QS 
+- Fixed QS opacity after reboot 
+- Added support for max/min fling velocity sysproperties 
+- Fixed the behavior of QS with isDualTarget=true 
+- Allowed heads-up to draw beyond bounds 
+- Added Advanced location tile 
+- Removed broken 5 qqs column option 
+- Fixed data usage detail's text view on dark/black theme 
+- Themes: Convert sync icons to vector so they theme correctly 
+- Settings: appops: Drop GET_UNINSTALLED_PACKAGES from getApplicationInfo() 
+- Reworked DTBO image generation 
+- Fixed auto-brightness first screen update
+- Updated translations
 
 
 [MISC]
-- As in Sources there was a change in frameworks base that was causing conflictions in Pocket Detection, that's fixed.
-- As always, Added Updater
+
+- As you can see in source side changes (Q beta pill date style), that was not aligned properly, so I reverted that. Whatsoever, if you still want to try pill style date flash zip file from 2nd poat of XDA
+- The Q music seekbar is reworked, so it won't cover album, but was looking ugly. So reverted that too
+- As always, added Updater
+
+
+[DEVICE SIDE]
+
+- Added Qualcomm Framework boost, Now you will actually feel the speed in your hand (not just joking)
+- Enabled touch optimization
+- Updated Spectrum Profile for New Kernel
+- Now with new kernel MAYHEM Unravel-2.0
+
+
+[KERNEL SIDE]
+
+- Better and faster camera focus 
+- Default frequency set to 2.0gHz(can be overclocked manually) 
+- Wireguard udated 
+- FP booster added 
+- Spectrum profile updated for v2.0 kernel 
+- Sound control with speaker and mic gain 
+- Fix some memory leaks 
+- Vibration: Add interface to control intensity 
+- DTS-Eagle intergrated 
+- Only stock cpu freq Gov. and I/O scheduler (Bonus:Smartmax_Eps) 
+- Some I/O scheduler upstreams
+- Colour Calibration

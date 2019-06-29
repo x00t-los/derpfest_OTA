@@ -9,7 +9,7 @@ Changelog for DerpFest Build OTA Update 29.06.2019 for X00TD:
 [MISC]
 
 - Added OTA Update support.
-
+- Non-Gapps build, flash gapps manually
 
 [DEVICE SIDE]
 

@@ -1,56 +1,23 @@
-Changelog for DerpFest Build OTA Update 24.06.2019 for Sanders:
+Changelog for DerpFest Build OTA Update 29.06.2019 for X00TD:
 
 [SOURCE SIDE]
 
-- Added New Android Q activity animations
-- CustomDoze: Added Double tap to trigger doze
-- Disabled doze auto brightness (now ambient brightness changer can take effect)
-- Added some icons to the Ambient Display section of Settings
-- Added Vector icons for Dirac settings
-- Removed lockscreen date styles for now (was already removed for sanders)
-- Added animation of switching between the power menu and the extended power menu
-- Blocked that Spotify can use the accelerometer and linear acceleration
-- Added Pixel Navigation Bar's Home icon
-- Changed to proper default Accent hex colors
-- Updated some default configs for framework, SystemUI and Settings
-- Changed 'Manage notifications' string in SystemUI to just 'Manage' (Q behavior)
-- Icon bg changes for Settings on Dark/Black themes
-- Theme changes for Settings Suggestions app
-- Added check if Font has valid context
-- Some dock accessory fixes
-- Pop-up an error when renaming a file in Documents app and something goes wrong
-- Set delay for screenshot shortcut (vol down+power) to 0
-- Some encryption fixes
-- Updated German APNs
-- Updated few Fonts
-- Updated translations (merged also a PR for pt-BR translations for Q clock)
+- DerpFest loves X00TD now, so no more Homemade builds :D
 - Some more things maybe I can't remember more :P
 
 
 [MISC]
 
-- Still we have old music seekbar in notifications panel and not the new one - because new one looks ugly AF
-- As always, added Updater
+- Added OTA Update support.
 
 
 [DEVICE SIDE]
 
-- Moved Battery Icon/Estimates to QS header from QS, now it looks cool and QS not seems messy
-- Imported CAF binderized Power Hal from LA.UM.7.6.r1-04800-89xx.0
-- The that was of YouTube showing black screen when video played for some peeps is prolly fixed
+- Removed some useless audio blobs
+- Added Snap Camera from source
 - Built with clang v9.0.4
-- Brand new kernel "MAYHEM Unravel 3.0" ( A very thanks to Ronax for his awesome work )
-
+- Some more performance & battery life improvements
 
 [KERNEL SIDE]
 
-- A PURE-CAF kernel
-- Upstreamed kernel and merged CAF tag from LA.UM.7.6.r1-05300-89xx
-- Updated WiFi drivers from CAF tag LA.UM.7.6.r1-05300-89xx
-- Added KLapse v5.0
-- Increased max input charge current
-- Increased Frame captures timeout to 10 seconds from 1 second
-- Increased USB charging current
-- Better sound and display
-- Added slimbus OC
-- Some fixes here and there
+- Kudkernel 4.4.184 Upstreamed

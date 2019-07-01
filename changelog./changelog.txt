@@ -1,3 +1,24 @@
+Changelog for DerpFest Build OTA Update 01.07.2019 for X00TD:
+
+[SOURCE SIDE]
+
+- Fixed Screenshot preview
+- Added 6 new QS tile styles from Bootleggers (Cookie, Neon Light, Oxygen, Triangles, Divided Circle, Cosmos)
+- Reworked QS Transparency option (Don't set background on the entire FrameLayout. Let background shade stay as is.)
+- BatteryBar: Fixed vertical gradient and some other fixes
+- Changed Q seekbar back to latest AOSiP source
+- Some general seekbar improvements
+- Set max fling ticks per sec to 24
+- Settings: Rearranged Sounds and Battery page a little
+- Some more things maybe I can't remember more :P
+
+[DEVICE SIDE]
+
+- Moved Battery icon/Estimate on QS Header
+- Updated Volte icon (Thanks to crDroid Team)
+- Removed NFC from Device tree
+- Overlay: Set Auto-brightness off by default
+
 Changelog for DerpFest Build OTA Update 29.06.2019 for X00TD:
 
 [SOURCE SIDE]

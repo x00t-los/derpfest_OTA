@@ -1,44 +1,20 @@
-Changelog for DerpFest Build OTA Update 01.07.2019 for X00TD:
+Changelog for DerpFest Build OTA Update 13.08.2019 for X00TD:
 
-[SOURCE SIDE]
+Device -
 
-- Fixed Screenshot preview
-- Added 6 new QS tile styles from Bootleggers (Cookie, Neon Light, Oxygen, Triangles, Divided Circle, Cosmos)
-- Reworked QS Transparency option (Don't set background on the entire FrameLayout. Let background shade stay as is.)
-- BatteryBar: Fixed vertical gradient and some other fixes
-- Changed Q seekbar back to latest AOSiP source
-- Some general seekbar improvements
-- Set max fling ticks per sec to 24
-- Settings: Rearranged Sounds and Battery page a little
+- Kudkernel upstreamed 4.4.189
+
+Source Side -
+
+- Removed date styles
+- Removed all Q clock changes and additions (equal to official AOSiP now)
+- Battery bar has its own tab now
+- Beautified flashing script in recovery (Thanks to @marshmello_61)
+- Added option to force expanded notifications
+- Revised download indication in notification
+- Removed download notification after preview
+- Fixed autofill dialog background
+- Some more bionic optimizations from PA
+- A lot of GSI stuff was merged in AOSiP
+- Updated translations
 - Some more things maybe I can't remember more :P
-
-[DEVICE SIDE]
-
-- Moved Battery icon/Estimate on QS Header
-- Updated Volte icon (Thanks to crDroid Team)
-- Removed NFC from Device tree
-- Overlay: Set Auto-brightness off by default
-
-Changelog for DerpFest Build OTA Update 29.06.2019 for X00TD:
-
-[SOURCE SIDE]
-
-- DerpFest loves X00TD now, so no more Homemade builds :D
-- Some more things maybe I can't remember more :P
-
-
-[MISC]
-
-- Added OTA Update support.
-- Non-Gapps build, flash gapps manually
-
-[DEVICE SIDE]
-
-- Removed some useless audio blobs
-- Added Snap Camera from source
-- Built with clang v9.0.4
-- Some more performance & battery life improvements
-
-[KERNEL SIDE]
-
-- Kudkernel 4.4.184 Upstreamed

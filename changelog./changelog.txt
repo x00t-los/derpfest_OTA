@@ -1,20 +1,25 @@
-Changelog for DerpFest Build OTA Update 13.08.2019 for X00TD:
+Changelog for DerpFest Build OTA Update 19.08.2019 for X00TD:
 
 Device -
 
-- Kudkernel upstreamed 4.4.189
+- Kernel compiled with clang 9.0.6
 
 Source Side -
 
-- Removed date styles
-- Removed all Q clock changes and additions (equal to official AOSiP now)
-- Battery bar has its own tab now
-- Beautified flashing script in recovery (Thanks to @marshmello_61)
-- Added option to force expanded notifications
-- Revised download indication in notification
-- Removed download notification after preview
-- Fixed autofill dialog background
-- Some more bionic optimizations from PA
-- A lot of GSI stuff was merged in AOSiP
-- Updated translations
+- Added Bootleggers date styles back 
+- Imported Lockscreen clock fronts from Bootleggers
+- Removed Fruity pebbles and introduced RGB accenter from POSP 
+- Q Clock "it's" follows RGB accenter now 
+- Q Clock: Added 24h support back 
+- Added LOS Recorder with system audio recording support 
+- Added Extended Google Sound Search tile (with support for Shazam and Soundhound) 
+- Added CPUInfo toggle tile 
+- Added Compass tile 
+- Slashified more tiles to match QS 
+- Added toggle for notification counters 
+- Ticker: Don't tick in do not disturb 
+- Ticker: Fixed alignment in statusbar 
+- Added per-app VPN data restriction ability 
+- Improved performance of unclipped save layers 
+- SystemUI: Don't vibrate on touchscreen camera gesture
 - Some more things maybe I can't remember more :P

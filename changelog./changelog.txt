@@ -1,25 +1,19 @@
-Changelog for DerpFest Build OTA Update 19.08.2019 for X00TD:
+Changelog for DerpFest Build OTA Update 26.08.2019 for X00TD:
 
 Device -
 
-- Kernel compiled with clang 9.0.6
-
 Source Side -
 
-- Added Bootleggers date styles back 
-- Imported Lockscreen clock fronts from Bootleggers
-- Removed Fruity pebbles and introduced RGB accenter from POSP 
-- Q Clock "it's" follows RGB accenter now 
-- Q Clock: Added 24h support back 
-- Added LOS Recorder with system audio recording support 
-- Added Extended Google Sound Search tile (with support for Shazam and Soundhound) 
-- Added CPUInfo toggle tile 
-- Added Compass tile 
-- Slashified more tiles to match QS 
-- Added toggle for notification counters 
-- Ticker: Don't tick in do not disturb 
-- Ticker: Fixed alignment in statusbar 
-- Added per-app VPN data restriction ability 
-- Improved performance of unclipped save layers 
-- SystemUI: Don't vibrate on touchscreen camera gesture
+- Added Long screenshot port from OOS
+- Adjusted QS Tile to work with new long screenshots
+- Increased Longshot timeout to 2 seconds
+- Added 2 more experimental date styles (only for testing, was curious)
+- AppOpsManager: Fixed bluetooth scan op permission
+- Added Multiuser switch
+- Settings: Imported Adaptive Battery translations from crosshatch
+- Improved notification counter
+- Added support for in-display fingerprint sensors
+- Battery icon: Don't force show percentage
+- Q clock: Added Indonesian, Spanish, Polish translations
+- Updated ROM translations
 - Some more things maybe I can't remember more :P

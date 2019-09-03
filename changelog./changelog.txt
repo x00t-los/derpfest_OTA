@@ -1,19 +1,26 @@
-Changelog for DerpFest Build OTA Update 29.08.2019 for X00TD:
+Changelog for DerpFest Build OTA Update 03.09.2019 for X00TD:
 
 Device -
 
+- Updated blobs from 0.57 firmware
+
 Source Side -
 
-- Added Long screenshot port from OOS
-- Adjusted QS Tile to work with new long screenshots
-- Increased Longshot timeout to 2 seconds
-- Added 2 more experimental date styles (only for testing, was curious)
-- AppOpsManager: Fixed bluetooth scan op permission
-- Added Multiuser switch
-- Settings: Imported Adaptive Battery translations from crosshatch
-- Improved notification counter
-- Added support for in-display fingerprint sensors
-- Battery icon: Don't force show percentage
-- Q clock: Added Indonesian, Spanish, Polish translations
-- Updated ROM translations
+- Fixed Google Markup FC when using it along with Longshot
+- Granted more permissions for Google Apps
+- Disabled wallpaper-based tint for scrim
+- Added capability to allow tethering to use VPN upstreams
+- Don't vibrate when in silent mode
+- ConnectivityService: Kill some log spam
+- ActivityManagerService: dont be so hectic on cpu battery stats
+- core: Update default material popup animations
+- core: ViewRootImpl: Stop the 'requestLayout() improperly called' logspam
+- NavigationBarView: Always add shadow on home button on some cases
+- core: Shorten wait time for shutdown time optimization
+- Network Traffic: Update traffic arrow icon
+- SystemUI: Tiny expanding improvement
+- Less boring heads up option: always show alarm clock headsup
+- Open app when clicking on icon in App Info
+- Substratum: enable FORCE_AUTHORIZE_SUBSTRATUM_PACKAGES by default
+- settings: move wifi mac randomization to wifi settings
 - Some more things maybe I can't remember more :P

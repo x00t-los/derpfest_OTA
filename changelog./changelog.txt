@@ -2,25 +2,22 @@ Changelog for DerpFest Build OTA Update 03.09.2019 for X00TD:
 
 Device -
 
-- Updated blobs from 0.57 firmware
+- Added more blobs from 0.57 firmware
+- Added back Dirac
+- Less idle / Screen off drain now
 
 Source Side -
 
-- Fixed Google Markup FC when using it along with Longshot
-- Granted more permissions for Google Apps
-- Disabled wallpaper-based tint for scrim
-- Added capability to allow tethering to use VPN upstreams
-- Don't vibrate when in silent mode
-- ConnectivityService: Kill some log spam
-- ActivityManagerService: dont be so hectic on cpu battery stats
-- core: Update default material popup animations
-- core: ViewRootImpl: Stop the 'requestLayout() improperly called' logspam
-- NavigationBarView: Always add shadow on home button on some cases
-- core: Shorten wait time for shutdown time optimization
-- Network Traffic: Update traffic arrow icon
-- SystemUI: Tiny expanding improvement
-- Less boring heads up option: always show alarm clock headsup
-- Open app when clicking on icon in App Info
-- Substratum: enable FORCE_AUTHORIZE_SUBSTRATUM_PACKAGES by default
-- settings: move wifi mac randomization to wifi settings
+- Merged September security patch
+- Allow override of DUN settings
+- Use common network restrict apps method
+- Better QS detail clip animation
+- VolumeDialogControllerImpl: Check for internal audio recording support
+- SystemUI: Whitelist our recorder on CastController
+- Recorder: UI changes and improvements
+- Allow SystemUI to WRITE_APN_SETTINGS
+- Added edit action on notification
+- Added storage permissions to Google Markup
+- Added missing recorder permissions
+- Updated translations
 - Some more things maybe I can't remember more :P
